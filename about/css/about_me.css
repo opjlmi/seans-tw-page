@@ -1,0 +1,88 @@
+body {
+	background-color: #5A5A5A;
+}
+
+#main {
+padding-top: 50px;
+}
+
+.backtoBlog {
+	font-size: 18px;
+	color: white;
+}
+.backtoBlog p {
+	text-align: right;
+}
+.backtoBlog p a {
+	color: white;
+}
+
+.aboutme {
+	background-color: white;
+	height: 554px;
+}
+
+.aboutmeimg {
+	background-image: url(../img/card.png);
+	background-repeat: no-repeat; 
+}
+
+.aboutmetext div {
+	height: 50%;
+}
+
+.aboutmetext .t {
+	/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+.aboutmetext .t div{
+	width: 100%;
+
+}
+
+.aboutmetext .t .m {
+	padding-top: 35px;
+	font-size: 50px;
+}
+
+.aboutmetext .c div {
+	font-size: 20px;
+}
+
+.connect-me {
+	margin: 0 auto;
+	width: 228px;
+	background-image: url(../img/connect.png);
+	background-repeat: no-repeat; 
+}
+
+.connect-me .icon {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.connect-me .pad {
+	margin-left: 24px;
+}
+
+@media (max-width: 992px) {
+	.aboutmeimg {
+		-moz-background-size:100%;
+		-webkit-background-size:100%;
+		-o-background-size:100%;
+		background-size:100%;
+	}
+}
