@@ -11,10 +11,14 @@ tags:
 ##只有一步
 你只要進去 `/etc/X11/default-display-manager`，將第一行註解掉即可。
 
+{% highlight bash %}
 sudo vi /etc/X11/default-display-manager
-```terminal 終端機
+{% endhighlight %}
+
+{% highlight bash %}
 #/usr/bin/slim
-```
+{% endhighlight %}
+
 
 就這樣，結束。
 .

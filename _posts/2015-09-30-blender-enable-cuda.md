@@ -12,7 +12,8 @@ tags:
 ---
 
 最近在學校有上Blender的課，第一堂課就是要把顯卡開啟CUDA支援（學校機器搭的是Nvidia的顯卡）。所以在這邊筆記一下，以免下次要裝環境又找不到資料。
-<!-- more -->
+
+<br>
 
 ## 0. 環境
 - Debian Jessie 8
@@ -38,11 +39,15 @@ ps.小心別改到security的或其他行
 $ sudo apt-get update; sudo apt-get upgrade
 {% endhighlight %}
 
+<br>
+
 ## B. Install Nvidia Kernel Driver
 {% highlight bash %}
 $ sudo apt-get install nvidia-kernel-dkms nvidia-driver
 $ sudo apt-get install nvidia-cuda-toolkit nvidia-xconfig
 {% endhighlight %}
+
+<br>
 
 ## C. Disable Nvidia module
 
@@ -61,13 +66,18 @@ blacklist nouveau
 
 存檔
 
+<br>
+
 ## D. Rebuild X config file
 {% highlight bash %}
 $ sudo nvidia-xconfig
 {% endhighlight %}
 
+<br>
 
 ## E.Reboot
+
+<br>
 
 ## F. Check nvidia module
 {% highlight bash %}
