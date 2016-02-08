@@ -10,6 +10,18 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-date">
     <time>{{ page.date | date: '%Y/%m/%d' }}</time>
+    <br>
+    {% if page.tags != empty %}
+    [分類] {{ page.categories }}
+    {% endif %}
+    <br>
+    {% if page.tags != empty %}
+      [標籤] 
+	  {% for tag in page.tags %}
+	 	 #{{tag}} 
+	  {% endfor %}
+	{% endif %}
+
   </div>
   {{ content }}
 </div>
