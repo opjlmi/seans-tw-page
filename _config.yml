@@ -17,8 +17,6 @@ markdown:           kramdown
 nav:
   - name:           "[About]"
     href:           "/about"
-  - name:           "[Download]"
-    href:           "//github.com/opjlmi"
 
 # Sass
 sass:
