@@ -12,7 +12,7 @@ tags:
 - raspberry-pi-camera-module
 ---
 近期開始玩目前最夯的3D印表機，不過其實覺大部份的Opensoure的3D印表機(像是Prusai3)，要另外使用遠端控制的話，就要在另外去弄外接的東西去控制。其實網路上遠端控制3D印表機的資料其實很多，不過為了我臨時又需要看資料，那我就整理在這邊好了。
-**\*\*本文也有提供Raspberry Camera Module的教學\*\***
+****本文也有提供Raspberry Camera Module的教學****
 
 <br>
 
