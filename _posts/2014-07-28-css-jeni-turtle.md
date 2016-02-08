@@ -10,7 +10,7 @@ tags:
 
 上週六去參加了桃園前端開發者社群辦的 **熊大與喬巴的CSS3 Workshop**，這個Workshop是在教大家如何使用CSS去手刻圖案。講者有說這種CSS手刻其實是做爽的，不過做起來真的很爽啊哈哈哈哈哈！我這次挑了傑尼龜來當作這次Workshop的目標成品，雖然做起來有點(?)好笑，不過還是來紀錄一下好了。
 ps....真的醜到很好笑XD
-<!-- more -->
+
 ##Live Demo
 [手刻傑尼龜HTML](https://3fae846b4f4260ad3885a08e87ba1f78895ffd48.googledrive.com/host/0B6P9S7j0fBuYZVFmVWstd3pkUkk/)
 [手刻傑尼龜CSS](https://3fae846b4f4260ad3885a08e87ba1f78895ffd48.googledrive.com/host/0B6P9S7j0fBuYZVFmVWstd3pkUkk/setting.css)
