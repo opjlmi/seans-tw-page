@@ -8,7 +8,7 @@ name:               "Seans Dev"
 # URL
 baseurl:            ""
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:title.html
+permalink:          /:year/:title/
 
 # Markdown
 markdown:           kramdown
