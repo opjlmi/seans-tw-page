@@ -26,6 +26,7 @@ tags:
 ##行前工作
 Octoprint是目前網路上可以提供控制3Dprinter的OpenSource專案，目前我只有使用Raspberry pi測試過沒問題，如果有人是使用BananaPi或是Cubieboard安裝有成功的話，歡迎在下面留言告知。
 **\*\*以下所有指令都需在Raspberry pi下執行。\*\***
+
 (ps.本文並不會介紹設定Raspberry pi的部份)
 
 
