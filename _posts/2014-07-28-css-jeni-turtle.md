@@ -11,14 +11,14 @@ tags:
 上週六去參加了桃園前端開發者社群辦的 **熊大與喬巴的CSS3 Workshop**，這個Workshop是在教大家如何使用CSS去手刻圖案。講者有說這種CSS手刻其實是做爽的，不過做起來真的很爽啊哈哈哈哈哈！我這次挑了傑尼龜來當作這次Workshop的目標成品，雖然做起來有點(?)好笑，不過還是來紀錄一下好了。
 ps....真的醜到很好笑XD
 
-##Live Demo
+## Live Demo
 [手刻傑尼龜HTML](https://3fae846b4f4260ad3885a08e87ba1f78895ffd48.googledrive.com/host/0B6P9S7j0fBuYZVFmVWstd3pkUkk/)
 [手刻傑尼龜CSS](https://3fae846b4f4260ad3885a08e87ba1f78895ffd48.googledrive.com/host/0B6P9S7j0fBuYZVFmVWstd3pkUkk/setting.css)
-##前置準備
+## 前置準備
 在編輯器的部份建議使用Sublime+LiveStyle，
 瀏覽器使用Chrome即可(記得也要裝LiveStyle)。
 一定要記得裝LiveStyle，不然F5會按到手軟......Orz
-##基本語法
+## 基本語法
 <p>首先介紹最基本的語法， `width` 與 `height` 是在控制圖層的長與寬，可以使用像素(px)為單位，或者是使用百分比(%)來控制都行，百分比如果使用100%就是代表是 **目前瀏覽器視窗** 的大小。而 `font-size` 由字面上看起來就是控制字體大小， `background` 就是在控制圖層的背景顏色，可以使用pink、red、blue...等顏色單字控制，當然也可以使用rgb去控制(用rgba控制就是多alpha透明度的功能)。
 `overflow` 這個東西就要特別說明一下，當你有設定圖層的長寬時，當裡面的東西超過原本的圖層大小，內容就會被截掉。截掉的方式可以選擇scroll(捲軸)或hidden(隱藏)。
 </p>
@@ -89,7 +89,7 @@ ps....真的醜到很好笑XD
   }
 {% endhighlight %}
 
-##注意
+## 注意
 在刻html的時候，記得在div設定的時候一律使用class，千萬不要使用id！原因在於id只能使用一次，但是class卻可以無限使用。以下是範例。
 {% highlight html %}
 <div class="a b c d"></div>
@@ -98,5 +98,5 @@ ps....真的醜到很好笑XD
 //代表此圖層使用#hello的設定，而且其他圖層不能在稱作hello
 {% endhighlight %}
 
-##開始製作手刻圖吧
+## 開始製作手刻圖吧
 上面雖然語法有那麼多，不過實際上就是針對每個圖層去作設定，把圖層變成圓的、紅的....etc.。然後一層一層拼起來就是你要的東西。手刻圖並不難，難的地方是在於你花多少時間。現在就開始自己製作自己的手刻圖吧！

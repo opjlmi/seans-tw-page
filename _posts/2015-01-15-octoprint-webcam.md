@@ -16,14 +16,14 @@ tags:
 
 <br>
 
-##首先你需要準備......
+## 首先你需要準備......
 1. 一台使用Arduino控制的3D印表機(像是Prusai3)
 2. Raspberry pi
 3. 一台Webcam (Raspberry Camera Module也可)
 
 <br>
 
-##行前工作
+## 行前工作
 Octoprint是目前網路上可以提供控制3Dprinter的OpenSource專案，目前我只有使用Raspberry pi測試過沒問題，如果有人是使用BananaPi或是Cubieboard安裝有成功的話，歡迎在下面留言告知。
 **\*\*以下所有指令都需在Raspberry pi下執行。\*\***
 
@@ -32,11 +32,11 @@ Octoprint是目前網路上可以提供控制3Dprinter的OpenSource專案，目�
 
 <br>
 
-##開始！
+## 開始！
 
 <br>
 
-###Raspberry Pi 環境建置
+### Raspberry Pi 環境建置
 首先我們先把Raspberry pi的基本東西先安裝起來，且去下載並安裝OctoPrint。
 {% highlight bash %}
 cd ~
@@ -61,7 +61,7 @@ ps.相關Octorprint與Arduino設定不在這邊多做說明。
 
 <br>
 
-###Webcam環境建制
+### Webcam環境建制
 
 RaspberryPi在網路攝影機的部份都已經幫你設定好，不過你之前如果沒有啟動功能，你的Webcam可能會驅動不成功。所以你必須執行 `sudo raspi-config` 進入RaspberryPi的設定介面，必且選擇 `Enable Camera` 將Webcam的功能打開，存檔並重新開機。接下來請執行下面的指令：
 
@@ -92,7 +92,7 @@ sudo ./mjpg_streamer -o "./output_http.so -w ./www" -i "./input_raspicam.so -fps
 
 <br>
 
-##整合設定
+## 整合設定
 
 接下來就需要去Octoprint裡面設定，將Webcam正常啟用。編輯 `.octoprint/config.yaml` 裡面，修改設定如下：
 {% highlight yaml %}
@@ -104,13 +104,13 @@ stream: http://`Your\_Raspi's\_IP`:8080/?action=stream
 
 <br>
 
-##設定自動啟動
+## 設定自動啟動
 
 自動啟動的部份有分兩種，一種是開機自動啟動，一種是開完機在下指令，這兩種方式我都會作介紹。
 
 <br>
 
-###1.開完機再下指令
+### 1.開完機再下指令
 
 首先請先在家目錄建立一個 `octoprint_start.sh` 檔案，內文如下：
 **\*\*如果你是用Raspberry Camera Module，請直接替換指令即可。\*\***
@@ -130,7 +130,7 @@ sudo $MJPEG_STREAMER_HOME/mjpg_streamer -i "$MJPEG_STREAMER_HOME/input_uvc.so -f
 
 <br>
 
-###2.開機自動啟動指令###
+### 2.開機自動啟動指令
 
 當你建立 `octoprint_start.sh` 完畢後，只需要執行 `sudo vi /etc/rc.local` ，並且在最後一行 `exit 0` 前面加入以下程式碼：
 
