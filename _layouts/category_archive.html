@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
+<header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="{{ site.baseurl }}/"><< Back to {{ site.name }}</a>
+  </h1>
+</header>
+<div class="content post">
+<h1 class="post-title" class="title">Category archive for {{ page.category }}</h1>
+</div>
+<br>
 <div class="category-archive">
-  <div>
-    <span class="title">Category archive for {{ page.category }}</span>
-  </div>
   <div>
     <ul>
 {{ content }}

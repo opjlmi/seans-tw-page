@@ -9,21 +9,22 @@ layout: default
 <div class="content post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-date">
-    <time>{{ page.date | date: '%Y/%m/%d' }}</time>
-    <br>
+    <time>{{ page.date | date: '%Y/%m/%d' }}</time>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     {% if page.tags != empty %}
-    [分類] {{ page.categories }}
+    [分類] 
+    <a href="{{ site.baseurl }}/{{ page.categories }}/">{{ page.categories }}</a>
     {% endif %}
+  </div>
+  {{ content }}
+  <div class="post-date">
     <br>
     {% if page.tags != empty %}
       [標籤] 
-	  {% for tag in page.tags %}
-	 	 #{{tag}} 
-	  {% endfor %}
-	{% endif %}
-
+    {% for tag in page.tags %}
+     #{{tag}} 
+    {% endfor %}
+  {% endif %}
   </div>
-  {{ content }}
 </div>
 <div id="disqus_thread"></div>
 <script>
