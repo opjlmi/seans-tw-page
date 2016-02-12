@@ -54,7 +54,7 @@ git push -u origin master
 {% endhighlight %}
 
 ### Plan B.我想要使用自己購買的網址
-如果你想要使用自己購買的網址，你必須要先將branch設定為`gh-pages`，並新增一個CNAME的檔案，內容為你要綁定的網址。並到你的網址供應商那邊將網址使用`CNAME`
+如果你想要使用自己購買的網址，你必須要先將branch設定為`gh-pages`，並新增一個CNAME的檔案，內容為你要綁定的網址。`(**這邊就不限定Github的repo名稱**)`並到你的網址供應商那邊將網址使用`CNAME`
 的方式綁定至`account.github.io`。
 {% highlight bash %}
 ~/my-awesome-site$ vi CNAME
