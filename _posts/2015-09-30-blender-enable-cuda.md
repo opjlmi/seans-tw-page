@@ -1,7 +1,7 @@
 ---
 title: 啟用Blender CUDA功能
 date: 2015-09-30 10:54:35
-categories: 3D-Design
+categories: Design
 tags:
 - CUDA
 - Blender
