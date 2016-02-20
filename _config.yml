@@ -12,6 +12,8 @@ markdown:           kramdown
 nav:
   - name:           "[About me]"
     href:           "/about"
+  - name:           "[nodejs冷知識]"
+    href:           "/2016/nodejs-trivia/"  
 
 # Sass
 sass:
