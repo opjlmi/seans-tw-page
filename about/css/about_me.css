@@ -3,7 +3,7 @@ body {
 }
 
 #main {
-padding-top: 50px;
+	padding-top: 50px;
 }
 
 .backtoBlog {
@@ -76,6 +76,39 @@ padding-top: 50px;
 
 .connect-me .pad {
 	margin-left: 24px;
+}
+
+.portfolio {
+	background: white;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+.portfolio h2 {
+
+}
+
+.portfolio li {
+	list-style-type: circle;
+	font-size: 25px;
+}
+
+.portfolio ul {
+	margin-top: 30px;
+}
+
+.portfolio li a {
+	color: gray;
+	font-size: 20px;
+}
+
+.portfolio p {
+	font-size: 15px;
+	padding-left: 40px;
+}
+
+.portfolio .tag {
+	color: gray;
 }
 
 @media (max-width: 992px) {
