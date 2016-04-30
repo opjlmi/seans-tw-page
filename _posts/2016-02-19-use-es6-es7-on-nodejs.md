@@ -50,10 +50,10 @@ npm install babel-preset-es2015 babel-preset-stage-0 --save-dev
 
 ## 直接將babel安裝在專案資料夾內
 
-除了Global的安裝方法之外，你也可以直接將babel安裝在專案資料夾中。
+除了Global的安裝方法之外，你也可以直接將babel安裝在專案資料夾中。這時候只需要一次全部裝進去就可以囉！
 
 {% highlight bash %}
-npm install babel-core babel-polyfill --save-dev
+npm install babel-core babel-polyfill babel-preset-es2015 babel-preset-stage-0 --save-dev
 {% endhighlight %}
 
 ### 比較特別的是.....
