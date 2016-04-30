@@ -37,7 +37,7 @@ tags:
 首先必須安裝eslint，安裝的方式可以使用全局安裝，不過開發上還是建議直接安裝在專案資料夾較佳。(環境是es6，所以下面流程會安裝到babel，請注意)
 
 {% highlight bash %}
-npm install eslint babel-eslint
+npm install eslint babel-eslint --save-dev
 {% endhighlight %}
 
 接下來就是要安裝airbnb幫你做好的eslint規則，接下來要注意一點，你是否有需要開啟react的lint支援。不過怕安裝流程隨時都會變更，請記得安裝前要到airbnb/javascript的[頁面](https://github.com/airbnb/javascript/tree/master/packages)查看最新安裝流程。
