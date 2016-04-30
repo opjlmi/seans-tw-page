@@ -12,7 +12,7 @@ tags:
 
 ## 歡迎來到nodejs冷知識
 
-<br>   
+<br>
 
 - npm在顯示Global List時，可以不要把相依套件都顯示出來嗎？
 

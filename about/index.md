@@ -3,10 +3,15 @@ layout: "about"
 ---
 ## 作品集 (依時間排序)
 
+- fb-api [\[Github\]](https://github.com/opjlmi/fb-api)
+
+Facebook api 後端接介範例 <br>
+<p class="tag"> Tag: Javascript, Nodejs, ES6, express, facebook-dev </p>
+
 - Gandi autoupdate record [\[Github\]](https://github.com/opjlmi/gandi-autoupdate-record)
 
 使用Gandi API以及Zone File自動更新至Gandi DNS Server <br>
-<p class="tag"> Tag: Nodejs, ES6 </p>
+<p class="tag"> Tag: Javascript, Nodejs, ES6 </p>
 
 - Cbike-webapp [\[Github\]](https://github.com/opjlmi/cbike-webapp)
 
