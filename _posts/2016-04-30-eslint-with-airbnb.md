@@ -1,5 +1,5 @@
 ---
-title: '用eslint X Airbnb-rules改善程式碼品質'
+title: '用eslint X Airbnb Javascript-rules改善程式碼品質'
 categories: Nodejs
 tags:
 - eslint
