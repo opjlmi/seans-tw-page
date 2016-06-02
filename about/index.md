@@ -3,6 +3,11 @@ layout: "about"
 ---
 ## 作品集 (依時間排序)
 
+- Graduate-helper [\[Github\]](https://github.com/opjlmi/graduate-helper)
+
+南臺科技大學畢業助手 <br>
+<p class="tag"> Tag: Javascript, chrome, extension, vue.js </p>
+
 - fb-api [\[Github\]](https://github.com/opjlmi/fb-api)
 
 Facebook api 後端接介範例 <br>
