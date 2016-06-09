@@ -26,10 +26,10 @@ npm install -g babel-core
 
 ### 加入ES6、ES7支援讓babel順利執行
 
-現在babel6版後，所有語言的轉換器都必須要另外安裝，所以請使用npm安裝以下套件(es2015表示ES6轉換器，stage-0表示ES7轉換器)：
+現在babel6版後，所有語言的轉換器都必須要另外安裝，所以請使用npm安裝以下套件(es2015表示ES6轉換器，stage-3表示ES7轉換器)：
 
 {% highlight bash %}
-npm install babel-preset-es2015 babel-preset-stage-0 --save-dev
+npm install babel-preset-es2015 babel-preset-stage-3 --save-dev
 {% endhighlight %}
 
 ### 新增.babelrc
@@ -38,7 +38,7 @@ npm install babel-preset-es2015 babel-preset-stage-0 --save-dev
 
 {% highlight bash %}
 {
-    presets: [ "es2015", "stage-0" ]
+    presets: [ "es2015", "stage-3" ]
 }
 {% endhighlight %}
 
@@ -53,7 +53,7 @@ npm install babel-preset-es2015 babel-preset-stage-0 --save-dev
 除了Global的安裝方法之外，你也可以直接將babel安裝在專案資料夾中。這時候只需要一次全部裝進去就可以囉！
 
 {% highlight bash %}
-npm install babel-core babel-polyfill babel-preset-es2015 babel-preset-stage-0 --save-dev
+npm install babel-core babel-polyfill babel-preset-es2015 babel-preset-stage-3 --save-dev
 {% endhighlight %}
 
 ### 比較特別的是.....
