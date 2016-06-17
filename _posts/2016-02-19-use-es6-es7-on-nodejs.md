@@ -56,10 +56,6 @@ npm install babel-preset-es2015 babel-preset-stage-3 --save-dev
 npm install babel-core babel-polyfill babel-preset-es2015 babel-preset-stage-3 --save-dev
 {% endhighlight %}
 
-## 如果你是使用nodejs6以上的版本
-
-如果你是安裝nodejs v6以上的版本，因為在6版之後ES2015已經支援到96%，所以你只需要安裝[babel-preset-es6-node6](https://www.npmjs.com/package/babel-preset-es6-node6)將缺少的features補上即可。但是如果還是有使用到es7以上的語法還是得安裝 `babel-preset-stage-3` 哦！
-
 ### 比較特別的是.....
 如果你想用 `node your-file.js` 執行的話，你必須要在你的啟動程式引用
 
@@ -70,3 +66,9 @@ require('babel-polyfill');
 
 
 而且要小心！你的起始程式並不能有任何ES6或ES7的相關語法，除了其他include進來的程式才能有。小心啊小心.......雖然說ES6+nodejs基本上目前是一個好像有點(非常)雷的坑，不過跳進來就對啦，反正看到一個雷就除一個，是吧XDDDDD
+
+<br>
+
+## 如果你是使用nodejs6以上的版本
+
+如果你是安裝nodejs v6以上的版本，因為在6版之後ES2015已經支援到96%，所以你只需要安裝[babel-preset-es6-node6](https://www.npmjs.com/package/babel-preset-es6-node6)將缺少的features補上即可。但是如果還是有使用到es7以上的語法還是得安裝 `babel-preset-stage-3` 哦！
